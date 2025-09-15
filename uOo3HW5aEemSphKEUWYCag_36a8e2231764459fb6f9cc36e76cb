@@ -1,0 +1,75 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM5we8abKm4BgnR3Nce3ILq",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/basari161/Datasciencecoursera/blob/main/uOo3HW5aEemSphKEUWYCag_36a8e2231764459fb6f9cc36e76cb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import cmath\n",
+        "\n",
+        "# Solve the quadratic equation ax^2 + bx + c = 0\n",
+        "\n",
+        "a = 1\n",
+        "b = 5\n",
+        "c = 6\n",
+        "\n",
+        "# calculate the discriminant\n",
+        "delta = (b**2) - 4*(a*c)\n",
+        "\n",
+        "# find two solutions\n",
+        "x1 = (-b - cmath.sqrt(delta)) / (2 * a)\n",
+        "x2 = (-b + cmath.sqrt(delta)) / (2 * a)\n",
+        "\n",
+        "print(f'The solutions are {x1} and {x2}')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dBqrJV6G5t5V",
+        "outputId": "73032604-e777-4afa-85f9-ebd927c92a87"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The solutions are (-3+0j) and (-2+0j)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "zR-ZIoaI52yJ"
+      }
+    }
+  ]
+}
